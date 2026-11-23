@@ -1,8 +1,13 @@
+
 # ==============================
 # Maven
 # ==============================
 
 **/target/
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/release.properties
+!.mvn/wrapper/maven-wrapper.jar
 
 # ==============================
 # IntelliJ IDEA
@@ -10,10 +15,40 @@
 
 **/.idea/
 **/*.iml
+**/*.ipr
+**/*.iws
 **/out/
 
 # ==============================
-# Java compiled files
+# Eclipse
+# ==============================
+
+**/.apt_generated/
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings/
+**/.springBeans
+**/.sts4-cache/
+
+# ==============================
+# NetBeans
+# ==============================
+
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# ==============================
+# VS Code
+# ==============================
+
+**/.vscode/
+
+# ==============================
+# Java
 # ==============================
 
 **/*.class
@@ -34,7 +69,7 @@
 !**/.env.example
 
 # ==============================
-# Local database data
+# Local databases
 # ==============================
 
 **/mysql-data/
